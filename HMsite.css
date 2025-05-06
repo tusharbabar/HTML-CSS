@@ -1,0 +1,296 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+            overflow: hidden auto;
+        }
+
+        .wrapper {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container{
+            height: 45rem;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            margin-top: 3rem;
+            display: flex;
+        }
+
+
+        .con-1 {
+            width: 50%;
+            background-image: url(./HMfirst.jpg);
+            background-size: cover;
+            display: flex;
+        }
+
+        .c-1 {
+            padding-top: 4rem;
+            padding-left: 2rem;
+            line-height: 2rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .c-1 h3 {
+            font-size: 2rem;
+            
+        }
+
+        .c-2 img {
+            height: 15rem;
+            width: 20rem;
+            position: absolute;
+            top: 0%;
+            left: 37%;
+        }
+      
+        .con-2 {
+            /* border: 1px solid black;  */
+            width: 50%;
+            background-image: url(./HMsecond.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            
+            
+        }
+        /* nextDiv */
+        
+        .section{
+            height: 50rem;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+           
+        }
+
+        .sec-1 {
+            width: 50%;
+            /* border: 1px solid black; */
+            padding: 5rem;
+            position: relative;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sec-1 img {
+            padding: 5rem;
+        }
+        .img-1{
+            background-position: center;
+        }
+
+        .img-2 {
+            height: 42rem;
+			width: 32rem;
+			object-fit: cover;
+			position: absolute;
+        }
+
+        .img-2 {
+            z-index: 10;
+			top: 30%;
+			left: 56%;
+        }
+
+
+        .sec-2 {
+            height: 55rem;
+            width: 50%;
+            /* border: 1px solid black;  */
+            background-color: #9e9585;
+            
+        }
+
+        .sec-3 {
+            color: white;
+        }
+
+        #tab-1 {
+            text-align: center;
+            align-items: center;
+            width: 30rem;
+            padding-top: 5rem;
+            font-size: 1.4rem;
+            padding-left: 5rem;
+            line-height: 2rem;
+        }
+
+        .sec-3 h1 {
+            font-size: 3rem;
+            padding-left: 5rem;
+            padding-top: 1rem;
+        }
+
+        .sec-3 p {
+            text-align: center;
+            padding-top: 2rem;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+
+        #but {
+            width: 10rem;
+            height: 3rem;
+            color: white;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            float: right; 
+            margin-top: 4rem;
+            margin-right: 17rem;
+            /* border-radius: 2rem;  */
+            background-color: black;
+            
+        }
+        /* Next Div start */
+        
+        .Main {
+            height: 60rem;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            padding-top: 3rem;
+        }
+
+        .Main-1 {
+            width: 50%;
+            /* border: 1px solid black; */
+
+        }
+
+        .M1 {
+            padding: 5rem;
+        }
+
+        .M1 p {
+            font-size: 1.5rem;
+            line-height: 3rem;
+            padding-left: 4rem;
+        }
+
+        .M1 h2 {
+            font-size: 2.5rem;
+            padding-left: 4rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .M2 {
+            float: right;
+            /* padding-right: 2rem; */
+        }
+
+        .M2 button {
+            height: 2.4rem;
+            width: 12rem;
+            /* border-radius: 1rem; */
+            background-color: #000000;
+            color: white;
+            justify-content: center;
+            
+        }
+        #last{
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .M3 {
+            height: 35rem;
+            padding-left: 5rem;
+            /* border: 1px solid black;  */
+            position: relative;
+             z-index: 5;
+           
+        }
+
+        .img-3 {
+            
+            padding-left: 3rem;
+            padding-top: 2rem;
+            height: 38rem;
+            width: 35rem;
+            z-index: 5;
+			left: 6%;
+            position: relative; 
+        }
+
+        .M4 {
+            height: 10rem;
+            background-color: rgb(209, 90, 90);
+            z-index: 10;
+            top: -10rem;
+            padding-right: 1rem;
+        }
+        
+
+        .footer-2 {
+            width: 50%;
+            /* border: 1px solid black; */
+            position: relative;
+            
+        }
+
+        .foot {
+            height: 25rem;
+            width: 25rem;
+
+        }
+
+        .foot-1 {
+            height: 15rem;
+            width: 15rem;
+            object-fit: cover;
+           position: absolute;
+            
+        }
+
+        .foot-1 {
+            z-index: 10;
+           top: -18%;
+          right: 13rem
+        }
+
+        .foot-3 {
+            height: 25rem;
+            width:  28rem;
+            /* border: 1px solid black;  */
+            margin: 5rem;
+            text-align: end;
+            align-items: end;
+            justify-content: end;
+            background-color: #91846d;
+            color: white;
+           
+        }
+
+
+        .foot-3 h2 {
+            padding-top: 4rem;
+            line-height: 3rem;
+            font-size: 1.6rem;
+            padding-right: 1rem;
+        }
+
+        .foot-3 h1 {
+            font-size: 2.4rem;
+            padding-right: 1rem;
+            font-family: sans-serif;
+        }
+
+        .foot-3 p {
+            font-size: 1.2rem;
+            padding-top: 2rem;
+            padding-right: 1rem;
+            /* font-family: ; */
+
+        }
+           
