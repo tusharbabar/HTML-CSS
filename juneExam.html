@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="juneExam.css">
+</head>
+
+
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="data:image/jpeg;base64,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" alt="Logo">
+                <span class="brand">KING</span>
+                <span class="tagline">BE THE MASTER</span>
+            </div><br><br>
+            <div class="contact-info">
+                <span>Email: contact@mail.com</span> |
+                <span>Phone: 800-555-1234</span>
+            </div>
+            <div class="social-icons">
+                <a href="#">👍</a>
+                <a href="#">🐦</a>
+                <a href="#">📷</a>
+                <a href="#">🎥</a>
+            </div> 
+        </div>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">+ PAGES</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button>🔍</button>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="second">
+        <div class="sec-1">
+            <h1>Making coloboraration Easy & productivity Everyday!</h1>
+        </div>
+        <div class="sec-2">
+            <button id="but">VIEW MORE →</button>
+        </div>
+    </div>
+        
+    <div class="third">
+        <div class="t1">
+           <div class="t">
+            <h2>DIGITAL <br>NATURE</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Mollitia praesentium minima eaque eum.</P>
+           </div>
+        </div>
+        <div class="t2">
+            <h1>Project Title</h1><br>
+            <p>Date 03-06-2020</p><br>
+            <h5>Lorem ipsum dolor sit <span id="t3">Lorem, ipsum dolor.</span>amet consectetur adipisicing elit. Incidunt autem fugit minus quisquam error ratione, asperiores aspernatur unde molestiae deleniti nemo eius illo accusantium,
+                s nulla ea voluptatibus voluptatem ab
+                 possimus!</h5><br>
+                 <button id="butt3">View details</button>
+        </div>
+            
+           
+    </div><br><br><br>
+    <!-- <div class="four">
+
+    </div> -->
+
+    
+    <div class="four">
+        <div class="four-menu">
+            <h3>SERVICES</h3>
+            <ul>
+                <li>→ Lorem sum dolor sit amet</li>
+                <li><a href="#">→ Consectetur adipiscing elit</a></li>
+                <li>→ Suspendisse tristique ante</li>
+                <li>→ Sem pulvinar posuere</li>
+            </ul>
+        </div>
+    
+        <div class="four-cards">
+            <div class="card">
+                <h3>DIGITAL</h3>
+                <div class="icon">👁️</div>
+                <p><em>Pellentesque habitant orci tristique.</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique ante sit amet sem pulvinar posuere.</p>
+                <a href="#">view details +</a>
+            </div>
+    
+            <div class="card">
+                <h3>PRINT</h3>
+                <div class="icon">📄</div>
+                <p><em>Pellentesque habitant orci tristique.</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique ante sit amet sem pulvinar posuere.</p>
+                <a href="#">view details +</a>
+            </div>
+    
+            <div class="card">
+                <h3>MOTION</h3>
+                <div class="icon">🎥</div>
+                <p><em>Pellentesque habitant orci tristique.</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique ante sit amet sem pulvinar posuere.</p>
+                <a href="#">view details +</a>
+            </div>
+        </div>
+</div>
+<br><BR>
+<div class="five">
+    <div class="five-1">
+        <div class="f">
+            <h1>PROJECT</h1>
+            <a href="#">→ VIEW ALL+</a>
+        </div>
+
+    </div>
+<div class="f1">
+    <div class="f2">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam temporibus rem saepe ab iusto quis quibusdam, quaerat ullam non ratione. Fuga, nulla cumque? Quidem, officiis 
+            squasi deserunt tempore recusandae necessitatibus!</p>
+    </div>
+
+</div>
+<div class="f1">
+    <img src="./page4.jfif" alt="">
+</div>
+<div class="f1">
+    <img src="./page4.jfif" alt="">
+</div> 
+</div>
+
+<br>
+<div class="five">
+    <div class="five-menu">
+        <h3>ABOUT US</h3>
+        <ul>
+            <li>→ Lorem sum dolor sit amet</li>
+            <li><a href="#">→ Consectetur adipiscing elit</a></li>
+            <li>→ Suspendisse tristique ante</li>
+            <li>→ Sem pulvinar posuere</li>
+        </ul>
+    </div>
+    <div class="five-2">
+        <h1>PROFILE</h1>
+        <div class="five-3">
+           <P><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sunt porro culpa, temporibus totam labore ab ratione incidunt consequatur rerum architecto eveniet aliquid voluptatum delectus, distinctio doloribus facilis laboriosam debitis!</i></P>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus hic quod laborum nobis maiores perferendis magni repudiandae sit accusantium recusandae in praesentium doloremque autem temporibus vero, dolorum nihil reiciendis.</h5>
+            <a href="#">→ VIEW ALL+</a>
+        
+        </div>
+    </div>
+    </div><br>
+    <div class="footer">
+        <div class="foot">
+            <h3>ABOUT US</h3>
+            <ul>
+                <li>→ HOME</li>
+                <li>→ GALLARY</li>
+                <li>→ BLOG</li>
+                <li>→ 📞Contact:-<Contact:b>854898567987</Contact:b></li>
+                <li>→ ☎Telephone 643567-6346</li>
+                <li>→ ✉mail634@gmail.com</li>
+            </ul>
+        </div>
+
+        
+    </div>
+</div>
+
+
+
+</div>
+</body>
+</html>
